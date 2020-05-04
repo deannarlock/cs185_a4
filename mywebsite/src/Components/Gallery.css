@@ -1,0 +1,21 @@
+.gallery {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+}
+
+.gallery > img {
+	width: 95%;
+	padding: 10px;
+}
+
+.large-image-cont {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.large-image {
+	width: 100%;
+}

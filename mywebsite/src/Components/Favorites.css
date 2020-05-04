@@ -1,0 +1,19 @@
+.row {
+	display: flex;
+	max-width: 100%;
+	align-items: center;
+}
+
+.row > div {
+	width: 30%;
+	text-align: center;
+	margin:	30px;
+}
+
+.row > div > a {
+	width: 100%;
+}
+
+.row > div > a > img {
+	width: 100%;
+}

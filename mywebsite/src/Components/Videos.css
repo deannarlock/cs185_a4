@@ -1,0 +1,16 @@
+.vid-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.vid {
+	width: 50%;
+	height: auto;
+	text-align: center;
+}
+
+.yt {
+	width: 100%;
+	height: auto;
+}

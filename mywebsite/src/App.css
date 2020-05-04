@@ -1,0 +1,13 @@
+.page {
+  background-color: rgb(230,230,230);
+}
+
+.nav-bar {
+  display: flex;
+}
+h2 {
+  padding: 5px;
+}
+h1 {
+	color: rgb(76, 125, 189);
+}
