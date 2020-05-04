@@ -1,6 +1,6 @@
 {
   "name": "mywebsite",
-    "homepage": "http://deannarlock.github.io/cs185_a1/",
+  "homepage": "http://deannarlock.github.io/cs185_a4/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
