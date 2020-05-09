@@ -4,7 +4,7 @@ import './Favorites.css'
 export class Favorites extends Component {
 	render() {
 		return (
-			<div class="row">
+			<div className="row">
 				<div>
 					<h3>Music</h3>
 					<a href="https://open.spotify.com/playlist/37i9dQZF1DX56bqlsMxJYR">

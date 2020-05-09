@@ -1,0 +1,13 @@
+.feed-page {
+	display: flex;
+	width: 90%;
+}
+
+.user-side {
+	width: 50%;
+}
+
+.view-side {
+	width: 50%;
+	text-align: center;
+}

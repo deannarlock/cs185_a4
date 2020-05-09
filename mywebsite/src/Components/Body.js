@@ -3,6 +3,7 @@ import Home from './Home'
 import Images from './Images'
 import Videos from './Videos'
 import Favorites from './Favorites'
+import Feed from './Feed'
 
 export class Body extends Component {
 	displayContent = () => {
@@ -16,12 +17,18 @@ export class Body extends Component {
 		else if(activeTab == 3){
 			return <Videos/>
 		}
-		else {
+		else if(activeTab == 4) {
 			return <Favorites/>
 		}
+		else {
+			return <Feed/>
+		}
+
 	}
 	render() {
-		return (this.displayContent());
+		return (
+			<div>{this.displayContent()}</div>
+		);
 	}
 }
 export default Body;

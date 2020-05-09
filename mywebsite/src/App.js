@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import './App.css'
 import TabList from './Components/TabList'
 import Body from './Components/Body'
 
+
+
 export class App extends Component {
-	constructor(){
-		super();
+
+	constructor(props){
+		super(props);
 		this.state = {
 			activeTab: 1
 		}
@@ -21,8 +24,14 @@ export class App extends Component {
 			else if(id == 2) {
 				return "Images"
 			}
-			else {
+			else if(id == 3) {
 				return "Videos"
+			}
+			else if(id == 4) {
+				return "Favorites"
+			}
+			else {
+				return "Feed"
 			}
 		}
 	}
@@ -43,6 +52,10 @@ export class App extends Component {
 		{
 			id: 4,
 			title: 'Favorites'
+		},
+		{
+			id: 5,
+			title: 'Feed'
 		}
 		]
 		return (
